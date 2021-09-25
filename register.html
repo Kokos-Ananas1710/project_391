@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <div class="dws-wrapper">
+        <div class="dws-form">
+            <!-- Вкладки на CSS-->
+            <!--<input type="radio" name="tabs" id="tab-1" checked>
+            <label class="tab" for="tab-1" title="Вкладка 1">Авторизация</label>
+            <input type="radio" name="tabs" id="tab-2">
+            <label class="tab" for="tab-2" title="Вкладка 2">Регистрация</label>-->
+
+            <!-- Вкладки на JS-->
+            <label class="tab active" title="Вкладка 1">Авторизация</label>
+            <label class="tab" title="Вкладка 2">Регистрация</label>
+
+            <form action="" class="tab-form active">
+                <div class="box-input">
+                    <input class="input" type="text" required>
+                    <label>Введите e-mail</label>
+                </div>
+                <div class="box-input">
+                    <input class="input" type="password" required>
+                    <label>Введите пароль</label>
+                </div>
+                <a href="#" class="button">Войти</a>
+                <ul class="social">
+                    <li><a href="#"><div><i class="fa fa-facebook"></i></div></a></li>
+                    <li><a href="#"><div><i class="fa fa-twitter"></i></div></a></li>
+                    <li><a href="#"><div><i class="fa fa-instagram"></i></div></a></li>
+                    <li><a href="#"><div><i class="fa fa-vk"></i></div></a></li>
+                    <li><a href="#"><div><i class="fa fa-youtube"></i></div></a></li>
+                </ul>
+                <a href="#">Я забыл свой E-mail или пароль</a>
+            </form>
+
+            <form action="" class="tab-form">
+                <div class="box-input">
+                    <input class="input" type="text" required>
+                    <label>Введите e-mail адрес</label>
+                </div>
+                <div class="box-input">
+                    <input class="input" type="text" required>
+                    <label>Введите свой логин</label>
+                </div>
+                <div class="box-input">
+                    <input class="input" type="tel" required>
+                    <label>Введите свой номер</label>
+                </div>
+                <div class="box-input">
+                    <input class="input" type="password" required>
+                    <label>Введите пароль</label>
+                </div>
+                <a href="#" class="button">Регистрация</a>
+                
+                <a href="#">Я забыл свой E-mail или пароль</a>
+
+                <div class="recover">
+                    <input type="checkbox" id="cbox">
+                    <label for="cbox">Ознакомлен(-а) и принимаю <a href="#">условия регистрации</a></label>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
